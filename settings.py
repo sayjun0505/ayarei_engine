@@ -5,7 +5,7 @@ WIDTH = 1200
 HEIGHT = 700
 HALF_WIDTH = WIDTH // 2
 HALF_HEIGHT = HEIGHT // 2
-FPS = 60
+FPS = 100
 TILE = 100
 FPS_POS = (WIDTH - 65, 5)
 
@@ -25,7 +25,7 @@ TEXTURE_HEIGHT = 1200
 TEXTURE_SCALE = TEXTURE_WIDTH // TILE
 
 # камера
-player_pos = (HALF_WIDTH, HALF_HEIGHT)
+player_pos = (HALF_WIDTH // 4, HALF_HEIGHT - 50)
 player_angle = 0
 player_speed = 2
 

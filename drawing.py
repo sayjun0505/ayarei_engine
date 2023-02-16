@@ -8,7 +8,11 @@ class Drawing:
         self.font = pg.font.SysFont('Arial', 36, bold=True)
         self.textures = {'0': pg.image.load('img/1.png').convert(),
                          '1': pg.image.load('img/2.png').convert(),
-                         'S': pg.image.load('img/sky.png').convert()
+                         'S': pg.image.load('img/sky.png').convert(),
+                         'I': pg.image.load('img/info.png').convert(),
+                         'M': pg.image.load('img/doom_sky.png').convert(),
+                         'F': pg.image.load('img/doom_1.png').convert(),
+                         'G': pg.image.load('img/doom_2.png').convert(),
                          }
 
     def background(self, angle):
