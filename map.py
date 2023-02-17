@@ -1,14 +1,14 @@
 from settings import *
 
 text_map = [
-    '000000000000',
-    '0..........0', # карта имба 
-    '0..........0', # чтобы рисовать обьекты
-    '0....I.....0', # используйте 0 и 1
-    '0..........0', # 1 кирпич
-    '0..........0', # 0 стена
-    '0..........0',
-    '000000000000',
+    '222222222222',
+    '2..........2',
+    '2..........2', 
+    '2.....IV...2', 
+    '2..........2', 
+    '2..........2', 
+    '2..201FG...2',
+    '222222222222'
 ]
 
 world_map = {}
@@ -19,6 +19,8 @@ for j, row in enumerate(text_map):
                 world_map[(i * TILE, j * TILE)] = '0'
             elif char == '1':
                 world_map[(i * TILE, j * TILE)] = '1'
+            elif char == '2':
+                world_map[(i * TILE, j * TILE)] = '2'
             elif char == 'I':
                 world_map[(i * TILE, j * TILE)] = 'I'
             elif char == 'M':
@@ -26,4 +28,8 @@ for j, row in enumerate(text_map):
             elif char == 'F':
                 world_map[(i * TILE, j * TILE)] = 'F'
             elif char == 'G':
-                world_map[(i * TILE, j * TILE)] = 'G'            
+                world_map[(i * TILE, j * TILE)] = 'G'
+            elif char == 'V':
+                world_map[(i * TILE, j * TILE)] = 'V'
+            elif char == 'K':
+                world_map[(i * TILE, j * TILE)] = 'K'
