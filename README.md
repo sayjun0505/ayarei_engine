@@ -6,7 +6,6 @@ doom-like движок для pygame
 гайд на использывание при запуске движка
 а и да тот кто пофиксит cpu bound и даст топ алгоритм получит секретную награду
 Удачи!
-![скрин игры](https://raw.githubusercontent.com/dttric/ayarei_engine/main/img/screenshot.png)
 <h2>Условия использывания</h2>
 1. Соблюдать GPL
 2. оставлять в README.md что-то по типу
