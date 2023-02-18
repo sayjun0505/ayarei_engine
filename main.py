@@ -5,7 +5,7 @@ import math as m
 from map import world_map
 from drawing import Drawing
 from tkinter import messagebox
-messagebox.showinfo('Добро Пожаловать в AyaRei Engine 1.0!','Добро пожаловать!\nЯ тебя ждал\nЯ общал конфигуратор но его не будет\nПоэтому вот гайд на изменение движка:\nray_casting.py - алгоритм графики\nmap.py - карта\nplayer.py - настройки игрока\nsettings.py - основные настройки\ndrawing.py - настройки графики\nНу вот и все удачи!')
+messagebox.showinfo('Добро Пожаловать в AyaRei Engine 1.0!','Добро пожаловать!\nЯ тебя ждал\nЯ общал конфигуратор но его не будет\nПоэтому прочти README.md')
 pg.init()
 dis = pg.display.set_mode((WIDTH, HEIGHT))
 pg.display.set_caption("аярей енжин")

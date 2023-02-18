@@ -39,7 +39,7 @@ def ray_casting(dis, player_pos, player_angle, textures):
                 break
             y += dy * TILE
 
-        # проекция 
+        # проекция
         depth, offset, texture = (depth_v, yv, texture_v) if depth_v < depth_h else (depth_h, xh, texture_h)
         offset = int(offset) % TILE
         depth *= m.cos(player_angle - cur_angle)
