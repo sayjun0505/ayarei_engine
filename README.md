@@ -8,7 +8,6 @@ doom-like движок для pygame
 а и да тот кто пофиксит cpu bound и даст топ алгоритм получит секретную награду
 Удачи!
 </pre>
-![engine screenshot](https://raw.githubusercontent.com/dttric/ayarei_engine/main/img/screenshot.png)
 <h2>Условия использывания</h2>
 <pre>
 1. Соблюдать GPL
